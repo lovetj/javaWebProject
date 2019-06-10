@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Administarator_general_login_interface">
+        <wb-resource deploy-path="/" source-path="/WebRoot"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="/Administarator_general_login_interface"/>
+        <property name="java-output-path" value="/Administarator_general_login_interface/WebRoot/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>

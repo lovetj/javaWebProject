@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Administarator_general_login_interface"
+  id="myeclipse.1543885146372"
+  context-root="/Administarator_general_login_interface"
+  j2ee-spec="5.0"
+  archive="Administarator_general_login_interface.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

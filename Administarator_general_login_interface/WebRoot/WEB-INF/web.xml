@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckCode</servlet-name>
+    <servlet-class>CheckCode_servlet.CheckCode</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeCheckCode_one</servlet-name>
+    <servlet-class>CheckCode_servlet.ChangeCheckCode_one</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeCheckCode_two</servlet-name>
+    <servlet-class>CheckCode_servlet.ChangeCheckCode_two</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin_servlet</servlet-name>
+    <servlet-class>Administarator_servlet.Admin_servlet</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>CheckCode</servlet-name>
+    <url-pattern>/CheckCode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeCheckCode_one</servlet-name>
+    <url-pattern>/ChangeCheckCode_one</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeCheckCode_two</servlet-name>
+    <url-pattern>/ChangeCheckCode_two</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin_servlet</servlet-name>
+    <url-pattern>/Admin_servlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>Administarator_login_interface.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
